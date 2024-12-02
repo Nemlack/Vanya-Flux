@@ -1,0 +1,162 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    /* background-color: #2d3436; */
+    /* background-color: #e0dcdc; */
+    background-color: #7bdef7;
+}
+
+.navbar {
+    /* color: aliceblue; */
+    background-color: darkslateblue;
+    /* padding: 10; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.navbar a:hover{
+    background-color: rgb(100, 85, 197);
+    color: gold;
+}
+
+.navbar-right {
+    float: right;
+}
+
+#rf-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    margin-top: 70px;
+    padding: 2px 20px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main h1 {
+    text-align: left;
+}
+
+.main p {
+    font-size: 20px;
+    /* flex: 1; */
+    margin-bottom: 10px;
+}
+
+/* .main img {
+    float: right;
+} */
+
+.anthem {
+    display: flex;
+    background-color: rgb(248, 203, 149);
+    padding: 20;
+    border-radius: 50px;
+    width: 700px;
+}
+
+.anthem audio {
+    align-self: flex-end;
+}
+
+.rf img{
+    display: block;
+    border-radius: 50px;
+    padding: 10;
+    margin-left: 20px;
+    height: 280px;
+}
+
+.news {
+    margin-top: 100px;
+    background-color:aquamarine;
+    padding: 20;
+    border-radius: 50px;
+}
+
+.news h1 {
+    text-align: center;
+}
+
+.aspirants-content {
+    display: flex;
+}
+
+.aspirants-content img {
+    margin-left: 30px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.open-doors-content {
+    display: flex;
+}
+
+.open-doors-content img {
+    margin-left: 30px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.seminar-content {
+    display: flex;
+}
+
+.miniexcursion-content {
+    display: flex;
+}
+
+.miniexcursion-content video {
+    margin-left: 30px;
+    height: 300px;
+}
+
+.hamster-content {
+    display: flex;
+}
+
+.hamster-content video {
+    margin-left: 30px;
+}
+
+.about {
+    margin-top: 100px;
+    background-image: url("about-bg2.webp");
+    /* background-size:contain; */
+    padding: 20;
+    border-radius: 40px;
+    height: 227px;
+    width: 1040px;
+}
+
+#about {
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+
+.about-content a {
+    color: rgb(250, 46, 148);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.about-content a:hover {
+    color: gold;
+}
